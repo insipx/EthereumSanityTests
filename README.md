@@ -1,6 +1,6 @@
 Use MyCrypto
-    - host: http://localhost:8545 or http://127.0.0.1:845
-    - Password to test wallet: ```paritytestwallet`
+    - host: http://localhost:8545 or http://127.0.0.1:8545
+    - Password to test wallet: `paritytestwallet`
 
 
 Addresses:
