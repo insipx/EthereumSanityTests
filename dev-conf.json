@@ -16,7 +16,6 @@
         "eip161dTransition": "0x0",
         "eip155Transition": "0x0",
         "eip98Transition": "0x7fffffffffffff",
-        "eip86Transition": "0x7fffffffffffff",
         "maxCodeSize": 24576,
         "maxCodeSizeTransition": "0x0",
         "eip140Transition": "0x0",
@@ -37,7 +36,8 @@
         "gasLimit": "0x7A1200"
     },
     "accounts": {
-        "D2B6378Ee64c57163334E9cC1105e95Ffe9870eA": {"balance":  "500000000000000000000000" },
+        "cd01b5cc1127ac2a235e39df4831baa676902ad1": { "balance": "50000000000000000000" },
+        "D2B6378Ee64c57163334E9cC1105e95Ffe9870eA": { "balance": "500000000000000000000000" },
         "004385d8be6140e6f889833f68b51e17b6eacb29": { "balance": "1606938044258990275541962092341162602522202993782792835301376" },
         "1337000000000000000000000000000000000000": { "balance": "1606938044258990275541962092341162602522202993782792835301376" },
         "0000000000000000000000000000000000000001": { "balance": "1", "builtin": { "name": "ecrecover", "pricing": { "linear": { "base": 3000, "word": 0 } } } },

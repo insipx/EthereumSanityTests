@@ -42,12 +42,12 @@ enabled = false
 # Target size of the whisper message pool in megabytes.
 pool_size = 20
 
-#[account]
-# From: [0x004385d8be6140e6f889833f68b51e17b6eacb29] you'll be able to send transactions without password.
-#unlock = ["0x004385d8be6140e6f889833f68b51e17b6eacb29"]
+[account]
+#From: [0x004385d8be6140e6f889833f68b51e17b6eacb29] you'll be able to send transactions without password.
+unlock = ["0xcd01b5cc1127ac2a235e39df4831baa676902ad1", "0xD2B6378Ee64c57163334E9cC1105e95Ffe9870eA"]
 # File at ./pass should contain passwords to unlock your accounts. One password per line.
-#password = ["./pass"]
+password = ["./pass"]
 # Disables hardware wallet support.
-#disable_hardware = true
+disable_hardware = true
 # Use drastically faster unlocking mode. This setting causes raw secrets to be stored unprotected in memory, so use with care.
-#fast_unlock = true
+fast_unlock = true
